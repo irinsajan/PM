@@ -23,15 +23,15 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	mango1 = new Mango(950,270,100,100);
-	mango2 = new Mango(830,270,100,100);
-	mango3 = new Mango(730,260,100,100);
-	mango4 = new Mango(1070,230,100,100);
-	mango5 = new Mango(970,200,100,100);
-	mango6 = new Mango(890,170,100,100);
-	mango7 = new Mango(810,200,100,100);
+	mango1 = new Mango(950,270);
+	mango2 = new Mango(830,270);
+	mango3 = new Mango(730,260);
+	mango4 = new Mango(1070,230);
+	mango5 = new Mango(970,200);
+	mango6 = new Mango(890,170);
+	mango7 = new Mango(810,200);
 	
-	stone = new Stone(140,460,200,250);
+	stone = new Stone(140,460);
 
 	sling = new Slingshot(stone.body,{x: 150,y: 450});
 
